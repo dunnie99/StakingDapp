@@ -35,9 +35,9 @@ export const App = () => {
       <RainbowKitProvider chains={chains}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<DefaultLayout />} />
-          <Route index element={<Home />} />
-          <Route path="/token" element={<TokenDashboard />} />
+          <Route path="/" element={<Home />} />
+          <Route index element={<TokenDashboard />} />
+          <Route path="/token" element={<stakingPool />} />
           {/* <Route path="/wise" element={} /> */}
         </Routes>
       </BrowserRouter>

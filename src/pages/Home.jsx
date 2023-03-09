@@ -24,7 +24,7 @@ export const Home = () => {
                     {holderName.map((e, i) => <div key={i} className=''> {e} </div>)}
                 </div>
                 <div className="p-2 mx-auto">
-                    <h2 className="text-2xl font-semibold mt-8">Tokens</h2>
+                    <h2 className="text-2xl font-semibold mt-8">Token Addresses</h2>
                     {tokenContracts.map((e, i) => <div key={i} className=''> {e} </div>)}
                 </div>
             </main>
